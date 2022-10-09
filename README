@@ -1,0 +1,15 @@
+/* ANDREI Gabriel - 313CB */
+
+README!
+Tema 3 - Biblioteca online
+
+Programul preia date din fisierul dat la intrare, fiecare rand din fisierul
+si in functie de comanda data(primul cuvant de pe rand) executa anumite operatii 
+cu arborele trie, initializat la inceput:
+
+    -ADD_BOOK : preia titlul, autorul, ratingul si numarul de pagini, construieste
+ structura Carte, cauta in arbore daca exista autorul dat. Daca exista, ii adauga 
+ o carte, daca nu, initializeaza arborele pentru carti si il adauga la autor.
+    -SEARCH_BOOK : daca se cauta dupa un prefix, in arbore se va cauta maxim 3 cuvinte(stocate
+intr-o matrice de cuvinte), altfel se va cauta in arbore(T1) titlul cartii.
+    -list_author : se cauta numele in arbore si va afisa fiecare carte a autorului
